@@ -1,8 +1,5 @@
 # ignore logs
 *.log
 
-# ignore node_modules
-node_modules/
-
 # ignore environment
-.env
+keys.env
