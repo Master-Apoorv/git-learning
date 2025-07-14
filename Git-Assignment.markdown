@@ -350,3 +350,86 @@ These commands configure Git to sign all commits globally using your specified G
 ------------------------------------------------------------------
 
 # Section 7
+
+## Task 7.1: Build Demo Project
+### Step 1: Set up a Local Project with Git
+```
+mkdir git-demo-project
+cd git-demo-project
+git init
+```
+![alt text](image-81.png)
+
+### Step 2: Create Basic App (e.g., a simple Python app)
+```
+touch main.py
+echo 'print("Hello from Git Demo!")' > main.py
+git add main.py
+git commit -m "Initial commit: Add base app"
+```
+![alt text](image-82.png)
+
+### Step 3 : Create Feature Branches
+`Let’s add two features: logging and math function.`
+![alt text](image-83.png)
+
+![alt text](image-84.png)
+
+#### Merge the branches
+![alt text](image-85.png)
+![alt text](image-86.png)
+
+### Step 4: Documentation and README
+
+Commands I followed
+```
+touch README.md
+echo "# Git Demo Project\n\n## Features\n- Logging\n- Math operations\n\n## How to Run\npython main.py" > README.md
+git add README.md
+git commit -m "Add README documentation"
+```
+![alt text](image-87.png)
+
+### Step 5: Simulate Code Review (on GitHub)
+
+#### A. Push to GitHub
+Commands I followed
+```
+git remote add origin https://github.com/YOUR_USERNAME/git-demo-project.git
+git push -u origin main
+```
+![alt text](image-88.png)
+![alt text](image-89.png)
+![alt text](image-90.png)
+![alt text](image-91.png)
+
+## Task 7.2: Create Learning Docs
+
+### Structure
+```
+docs/
+│
+├── daily_summaries.md
+├── Git_Assignments.md
+├── commands_reference.md
+├── problem_solving.md
+└── personal_workflow.md
+```
+
+## Task 7.3 - Knowledge Sharing
+ ### `created markdown file on git hub concepts named` ```git-concepts.md```
+
+
+# Deliverables
+![alt text](image-92.png)
+
+## Created a markdown document named `deliverables.md` in `docs` folder.
+
+----------------------------------------------------
+-----------------------------------------------------
+# The End
+----------------------------------------------------
+
+
+
+
